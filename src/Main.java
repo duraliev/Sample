@@ -1,6 +1,7 @@
 public class Main {
 
 	private Person mandy;
+	private Person billy;
 
 	/**
 	 * Concatenates a word to the phrase ", world!"
@@ -19,6 +20,8 @@ public class Main {
 
 	public void createGirl(){
 		mandy = new Person("Madisson", 7, 121);
+	public void createBoy(){
+		billy = new Person("William", 6, 1.16);
 	}
 
 	/**
