@@ -1,5 +1,7 @@
 public class Main {
 
+	private Person mandy;
+
 	/**
 	 * Concatenates a word to the phrase ", world!"
 	 * @param word the word you want to concatenate
@@ -13,6 +15,10 @@ public class Main {
 		int result = add(n1, n2);
 
 		System.out.println(n1 + "+" + n2 + "=" result);
+	}
+
+	public void createGirl(){
+		mandy = new Person("Madisson", 7, 121);
 	}
 
 	/**
